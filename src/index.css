@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;400&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,364 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Bebas Neue', cursive !important;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  font-family: 'Bebas Neue', cursive !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.nav-link {
+  color: black;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+}
+
+select {
+  box-shadow: none;
+  border-color: black !important;
+}
+
+/* custom css  */
+.navbar-bg {
+  background-color: #d4d0ec;
+  padding: 0.5rem 0;
+  z-index: 99;
+  position: relative;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.navbar li {
+  padding: 0 1rem;
+}
+
+.navbar li a {
+  font-size: 1rem;
+  font-weight: normal;
+  position: relative;
+}
+
+.navbar li a:hover {
+  color: #e8e5f8;
+  text-shadow: 0 0.2rem 0.3rem #b1a8e9;
+}
+
+.btn-style {
+  width: 6rem !important;
+  height: 2rem !important;
+  border-radius: 1rem !important;
+  color: #ffff !important;
+  background-color: #b1a8e9 !important;
+  text-transform: capitalize !important;
+  font-size: medium !important;
+  margin: 0 10px !important;
+}
+
+.btn-style:hover {
+  border: 0.1rem solid blue;
+  background-color: transparent !important;
+  color: #e6e5;
+  box-shadow: 0.2rem 0.4rem 0.6rem rgb(194, 156, 230);
+}
+
+/* header section  */
+
+header {
+  background-color: #e8e5f8;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main-hero-container {
+  height: 75vh;
+  display: flex;
+}
+
+.main-hero-container h1 {
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.main-hero-para {
+  font-weight: lighter;
+  margin: 1rem 0 1rem 0;
+  width: 75%;
+  text-transform: capitalize;
+}
+
+.main-hero-container h3 {
+  font-weight: bold;
+}
+
+.input-group {
+  position: relative;
+}
+
+.form-control-text {
+  border: none;
+  background-color: #ffff;
+  position: absolute;
+  font-size: 1rem;
+  padding-left: 1rem !important;
+  box-shadow:  0.8rem 0 0.8rem 0 rgba(0, 0, 0, 0.5) ;
+}
+
+.input-group-button {
+  position: absolute;
+  left: 58.5%;
+  background-color: rgba(21, 114, 201, 0.712);
+  top: 0.2rem;
+  font-size: 1rem;
+  width: 5.5rem;
+  height: 2.2rem;
+  border-radius: 1.5rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-hero-images {
+  position: relative;
+}
+
+.main-hero-images img {
+  width: 60%;
+  height: 70%;
+  margin-top: 2rem;
+  box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.5);
+  border-radius: 1.5rem;
+  position: absolute;
+}
+
+.main-hero-images .main-hero-img2 {
+  box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.5);
+  width: 50%;
+  height: 30%;
+  position: absolute;
+  left: 55%;
+  top: -0.3%;
+}
+
+/* HowIts Work section custome css */
+
+.work-container{
+  width: 80%vw;
+  padding: 3rem;
+  box-shadow:0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  margin-top: -5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.work-container .main-heading{
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+  word-spacing: 1rem;
+}
+
+.work-container-subdiv{
+  padding: 0 2rem;
+}
+.sub-heading{
+  font-size: 1.5rem;
+  font-weight:500 ;
+}
+.fontawesome-style{
+  font-size: 2rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background-color: aliceblue;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  margin: 2rem auto;
+  color: rgba(21, 108, 221, 0.952);
+}
+
+
+/* AboutUs Section  */
+.common section{
+  margin-top: 3rem;
+}
+.our-services img{
+  width: 50%;
+  height: 65%;
+  margin-top: 10rem;
+  box-shadow:0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 1.5rem;
+}
+.our-services .mini-title{
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 3rem 0;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.our-services .main-heading{
+  font-weight: bolder;
+}
+.our-services-info{
+  margin-top: 3rem;
+}
+.our-services .our-services-number{
+  width: 2.5rem;
+  height: 2.5rem;
+  background: transparent;
+  border: 1px solid rgba(21, 114, 201, 0.712);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #b1a8e9;
+  display: grid;
+  place-items: center;
+}
+.our-services-rightside{
+  margin-top: 6rem;
+}
+.our-services-data{
+  padding-left: 2rem;
+}
+.our-services .our-services-data p{
+  margin: 0.5rem 0;
+}
+.our-services-rightside-content{
+  padding-left: 6rem;
+}
+
+/* services section */
+.main-services-container{
+  margin-top: 2rem;
+  padding: 2rem 0;
+}
+.main-services-container .main-heading{
+  margin: 2rem o;
+}
+.work-container-subdiv{
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+.work-container-subdiv .main-hero-para{
+  width: 100%;
+}
+.work-container-subdiv:hover{
+  background-color: #d4d0ec;
+  cursor: pointer;
+}
+.main-services-container .work-container-subdiv .fontawesome-style{
+  margin: 2rem 0;
+}
+@media(min-width: 1400px){
+  .main-service .col-xxl-4{
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: auto;
+  }
+}
+@media(min-width: 992px){
+  .main-service .col-lg-4{
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: 2.5rem auto;
+  }
+}
+
+/*-------------------------------------- contactus ------------------------------------------------------------------------------- */
+.contactus-page{
+  margin: 8rem auto;
+}
+.leftside-page img{
+  min-width: 60%;
+  min-height: 16rem;
+  height: auto;
+}
+.contact-right-inner{
+  margin-bottom: 3.2rem;
+}
+
+.rightside-contact-page form .form-control{
+  border: 1px solid whitesmoke;
+  height: 3rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  font-weight: lighter;
+}
+
+.rightside-contact-page form .form-check-input{
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.rightside-contact-page form .main-hero-para{
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: lighter;
+  width: 100%;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+}
+/*-------------------------------------- footer ------------------------------------------------------------------------------- */
+footer{
+  padding: 3rem 0;
+  background-color: #182334 ;
+  color: #fff;
+}
+footer h2{
+  color: #fff;
+}
+footer li{
+  list-style: none;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  color: #fff !;
+}
+footer li a{
+  text-decoration: none;
+  color: #fff;
+}
+footer .space-around a{
+   text-decoration: none
+}
+footer .fontawesome-style{
+  font-size: 2rem;
+  background-color: transparent;
+  width: 0;
+  height: 0;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+footer .fontawesome-style:hover{
+  transition: all 1s;
+  animation: rotatefont 1s linear infinite alternate-reverse;
+  color: #fff;
+}
+@keyframes rotatefont{
+  0%{
+    transform: scale(0.6);
+  }
+  100%{
+    transform: scale(1.2);
+  }
+}
+footer .main-hero-para{
+  margin: 0;
 }
